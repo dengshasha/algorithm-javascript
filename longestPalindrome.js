@@ -1,6 +1,7 @@
 /**
  * https://leetcode.com/problems/longest-palindrome/
  * 题目的意思是给一个字符串，用该字符串里面的字符，组成最长的回文字符串，返回回文字符串的长度
+ * 题目太没意思了，太没难度，别看了
  * @param {string} s
  * @return {number}
  */
