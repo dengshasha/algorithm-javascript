@@ -4,3 +4,4 @@
 
 ### KMP
 ### Manacher‘s Algorithm(马拉车算法)
+[Longest Palindromic Substr](https://github.com/dengshasha/algorithm-study/blob/master/longestPalindromicSubstr.js)
