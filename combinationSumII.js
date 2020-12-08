@@ -35,7 +35,7 @@ var combinationSum2 = function(candidates, target) {
 };
 
 /**
- * 性能比方法一好很多
+ * 优化方案
  * @param {number[]} candidates
  * @param {number} target
  * @return {number[][]}

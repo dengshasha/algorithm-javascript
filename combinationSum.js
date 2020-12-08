@@ -17,7 +17,6 @@ var combinationSum = function(candidates, target) {
                 backTrack(i, total - candidates[i], arr)
                 arr.pop()
             }
-            
         }
     }
     return res
