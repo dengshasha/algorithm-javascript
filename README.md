@@ -5,6 +5,10 @@
 ### 分治法
 1. [Merge k Sorted Lists](https://github.com/dengshasha/algorithm-study/blob/master/mergeKSortedLists.js)
 
+### 回溯法
+1. [Combination Sum](https://github.com/dengshasha/algorithm-study/blob/master/combinationSum.js)
+2. [Combination Sum II](https://github.com/dengshasha/algorithm-study/blob/master/combinationSumII.js)
+
 ### KMP
 ### Manacher‘s Algorithm(马拉车算法)
 [Longest Palindromic Substr](https://github.com/dengshasha/algorithm-study/blob/master/longestPalindromicSubstr.js)
