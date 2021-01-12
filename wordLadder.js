@@ -6,21 +6,34 @@
  * @return {number}
  */
 var ladderLength = function(beginWord, endWord, wordList) {
-    const wordSet = new Set(wordList)
-    let hash = {}
+    let memo = []
     return match(beginWord, 0)
-    function match(word, step=0) {
-        if(word === endWord) return step;
-        for(let i = 0; i < endWord.length; i++) {
-            let newWord = word.slice(0,i) + endWord[i] + word.slice(i+1)
-            if(wordSet.has(newWord) && !hash[newWord]) {
-                hash[newWord] = 1
-                match(newWord, step++)
+    function match(word, step) {
+        if(word === endWord) {
+            return step-1;
+        }
+        let i = 0
+        for(i; i < wordList.length; i++) {
+            if(memo[i]) continue;
+            if(isOnlyOneDiffWord(word, wordList[i])) {
+                memo[i] = 1
+                step = match(wordList[i], step+1)
+
             }
         }
-        
         return step
     }
 };
 
-console.log(ladderLength("hit","cog",["hot","dot","dog","lot","log","cog"]))
+function isOnlyOneDiffWord(str1, str2) {
+    let diffLen = 0;
+    for(let i = 0; i < str1.length; i++) {
+        if(str1[i] !== str2[i]) {
+            diffLen++;
+            if(diffLen > 1) return false
+        }
+    }
+    return diffLen === 1;
+}
+ladderLength("hit","cog",["hot","dot","dog","lot","log","cog"])
+// console.log(ladderLength("hit","cog",["hot","dot","dog","lot","log","cog"]))

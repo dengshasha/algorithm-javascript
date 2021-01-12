@@ -21,21 +21,6 @@ var fourSumCount = function(A, B, C, D) {
     }
     console.log(step)
     console.log(res)
-    // let arr = [A,B,C,D]
-    // let pointer = 0
-    // let res = 0
-    // add(pointer, 0)
-    // return res
-    // function add(pointer, sum) {
-    //     if(pointer === arr.length) {
-    //         if(sum === 0) res++
-    //         return;
-    //     }
-    //     let curArr = arr[pointer]
-    //     for(let i = 0; i < curArr.length; i++) {
-    //         add(pointer+1, sum+curArr[i])
-    //     }
-    // }
 };
 
 console.log(fourSumCount(
