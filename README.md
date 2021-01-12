@@ -1,3 +1,6 @@
+### 面试题
+1. [打印二叉树路径](https://github.com/dengshasha/algorithm-study/blob/master/interview/printBinaryTreePath.js)
+2. [将数组结构转换成树形结构](https://github.com/dengshasha/algorithm-study/blob/master/interview/convertArrToTree.js)
 ### 动态规划
 1. [House Robber](https://github.com/dengshasha/algorithm-study/blob/master/houseRobber.js)
 2. [House RobberII](https://github.com/dengshasha/algorithm-study/blob/master/houseRobberII.js)
