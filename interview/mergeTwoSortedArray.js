@@ -1,4 +1,5 @@
 /**
+ * 字节跳动和快手都问过这个问题
  * @param {number []} arr1
  * @param {number []} arr2 
  * @returns {number []}
