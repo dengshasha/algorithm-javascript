@@ -5,6 +5,10 @@
     / [leetcode地址](https://leetcode.com/problems/merge-sorted-array/)
 4. [求二叉树的高度](https://github.com/dengshasha/algorithm-study/blob/master/interview/printBinaryTreePath.js)
     / [leetcode地址](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+
+### 二叉树
+1. [广度遍历二叉树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/levelOrderTraversal.js)
+    /[leetcode地址](https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/)
 ### 动态规划
 1. [House Robber](https://github.com/dengshasha/algorithm-study/blob/master/houseRobber.js)
 2. [House RobberII](https://github.com/dengshasha/algorithm-study/blob/master/houseRobberII.js)
