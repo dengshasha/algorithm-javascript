@@ -9,6 +9,7 @@
 /**
  * @param {TreeNode} root
  * @return {boolean}
+ * 方法一：利用广度遍历
  */
 var isSymmetric = function(root) {
     if(!root) return true;
@@ -38,6 +39,22 @@ var isSymmetric = function(root) {
         if(!isSym) break;
     }
     return isSym
+};
+
+/**
+ * @param {TreeNode} root
+ * @return {boolean}
+ * 方法二：来自评论同学的思路
+ */
+var isSymmetric_1 = function(root) {
+    if(!root) return true;
+    return isSymmetricRec(root.left, root.right)
+    function isSymmetricRec(left, right) {
+        if(left === null && right === null) return true;
+        if(left === null && right || right === null && left) return false;
+        if(left.val !== right.val) return false;
+        return isSymmetricRec(left.left, right.right) && isSymmetricRec(left.right, right.left)
+    }
 };
 
 var testData = {
@@ -92,5 +109,5 @@ var testData1 = {
     }
 }
 
-console.log('false:',isSymmetric(testData))
-console.log('true:', isSymmetric(testData1))
+console.log('false:',isSymmetric_1(testData))
+console.log('true:', isSymmetric_1(testData1))
