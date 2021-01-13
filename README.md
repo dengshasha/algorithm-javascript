@@ -9,6 +9,8 @@
 ### 二叉树
 1. [广度遍历二叉树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/levelOrderTraversal.js)
     /[leetcode地址](https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/)
+2. [Z字型广度遍历二叉树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/zigzagLevelOrderTraversal.js)
+    /[leetcode地址](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/submissions/)
 ### 动态规划
 1. [House Robber](https://github.com/dengshasha/algorithm-study/blob/master/houseRobber.js)
 2. [House RobberII](https://github.com/dengshasha/algorithm-study/blob/master/houseRobberII.js)
