@@ -3,8 +3,10 @@
 2. [将数组结构转换成树形结构](https://github.com/dengshasha/algorithm-study/blob/master/interview/convertArrToTree.js)
 3. [合并两个有序数组](https://github.com/dengshasha/algorithm-study/blob/master/interview/mergeTwoSortedArray.js)
     / [leetcode地址](https://leetcode.com/problems/merge-sorted-array/)
-4. [求二叉树的高度](https://github.com/dengshasha/algorithm-study/blob/master/interview/printBinaryTreePath.js)
+4. [求二叉树的高度](https://github.com/dengshasha/algorithm-study/blob/master/interview/maxDepthOfBinaryTree.js)
     / [leetcode地址](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+5. [二叉树路径和判断](https://github.com/dengshasha/algorithm-study/blob/master/interview/pathSum.js)
+    /[leetcode地址](https://leetcode.com/problems/path-sum/submissions/)
 
 ### 二叉树
 1. [广度遍历二叉树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/levelOrderTraversal.js)
@@ -13,6 +15,9 @@
     /[leetcode地址](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/submissions/)
 3. [对称二叉树判断](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/symmetricTree.js)
     /[leetcode地址](https://leetcode.com/problems/symmetric-tree/submissions/)
+4. [有序数组转化成平衡二叉搜索树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/convertSortedArraytoBST.js)
+    /[leetcode地址](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/)
+
 ### 动态规划
 1. [House Robber](https://github.com/dengshasha/algorithm-study/blob/master/houseRobber.js)
 2. [House RobberII](https://github.com/dengshasha/algorithm-study/blob/master/houseRobberII.js)
