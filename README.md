@@ -17,6 +17,8 @@
     /[leetcode地址](https://leetcode.com/problems/symmetric-tree/submissions/)
 4. [有序数组转化成平衡二叉搜索树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/convertSortedArraytoBST.js)
     /[leetcode地址](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/)
+5. [打印二叉树指定路径和](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/pathSumII.js)
+    /[leetcode地址](https://leetcode.com/problems/path-sum-ii/submissions/)
 
 ### 动态规划
 1. [House Robber](https://github.com/dengshasha/algorithm-study/blob/master/houseRobber.js)
