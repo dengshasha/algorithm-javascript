@@ -21,6 +21,8 @@
     /[leetcode地址](https://leetcode.com/problems/path-sum-ii/submissions/)
 6. [链表转换成平衡二叉搜索树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/convertSortedListToBST.js)
     /[leetcode地址](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/submissions/)
+7. [寻找二叉搜索树中第K小的值](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/kthSmallestEleInBST.js)
+    [leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/)
 
 ### 动态规划
 1. [House Robber](https://github.com/dengshasha/algorithm-study/blob/master/houseRobber.js)
