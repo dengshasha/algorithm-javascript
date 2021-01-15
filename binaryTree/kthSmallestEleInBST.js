@@ -30,6 +30,27 @@ function convertBSTToArray(root) {
     }
 }
 
+/**
+ * @param {TreeNode} root
+ * @param {number} k
+ * @return {number}
+ * 方法二：利用队列
+ */
+var kthSmallest_1 = function(root, k) {
+    let queue = []
+    let current = root
+    while(true) {
+        while(current !== null) {
+            queue.push(current)
+            current = current.left;
+        }
+        current = queue.pop()
+        k--;
+        if(k === 0) return current.val
+        current = current.right
+    }
+};
+
 var  testData = {
     val: 3,
     left: {
@@ -48,4 +69,4 @@ var  testData = {
     }
 }
 
-console.log(kthSmallest(testData, 1))
+console.log(kthSmallest_1(testData, 1))
