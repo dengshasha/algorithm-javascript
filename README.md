@@ -25,9 +25,14 @@
     [leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/)
 
 ### 动态规划
-1. [House Robber](https://github.com/dengshasha/algorithm-study/blob/master/houseRobber.js)
-2. [House RobberII](https://github.com/dengshasha/algorithm-study/blob/master/houseRobberII.js)
-
+1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
+    [leetcode地址](https://leetcode.com/problems/house-robber/)
+2. [强盗偷东西，价值最大化II](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobberII.js)
+    [leetcode地址](https://leetcode.com/problems/house-robber-ii/)
+3. [矩阵从左上角顶点走到右下角终点可能的路径总和](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/uniquePaths.js)
+    /[leetcode地址](https://leetcode.com/problems/unique-paths/)
+4. [矩阵从左上角顶点走到右下角终点可能的路径总和，路径中有障碍物](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/uniquePathsII.js)
+    [leetcode地址](https://leetcode.com/problems/unique-paths-ii/submissions/)
 ### 分治法
 1. [Merge k Sorted Lists](https://github.com/dengshasha/algorithm-study/blob/master/mergeKSortedLists.js)
 
