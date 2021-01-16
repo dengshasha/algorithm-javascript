@@ -24,6 +24,10 @@
 7. [寻找二叉搜索树中第K小的值](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/kthSmallestEleInBST.js)
     [leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/)
 
+### 字符串
+1. [最长公共前缀](https://github.com/dengshasha/algorithm-study/blob/master/string/longestCommonPrefix.js)
+    /[leetcode地址](https://leetcode.com/problems/longest-common-prefix/submissions/)
+
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
     [leetcode地址](https://leetcode.com/problems/house-robber/)
