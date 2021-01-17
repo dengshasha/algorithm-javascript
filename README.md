@@ -23,6 +23,8 @@
     /[leetcode地址](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/submissions/)
 7. [寻找二叉搜索树中第K小的值](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/kthSmallestEleInBST.js)
     [leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/)
+8. [二叉树中序遍历](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/inorderTraversal.js)
+    /[leetcode地址](https://leetcode.com/problems/validate-binary-search-tree/submissions/)
 
 ### 字符串
 1. [最长公共前缀](https://github.com/dengshasha/algorithm-study/blob/master/string/longestCommonPrefix.js)

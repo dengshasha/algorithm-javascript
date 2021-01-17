@@ -69,4 +69,4 @@ var  testData = {
     }
 }
 
-console.log(kthSmallest_1(testData, 1))
+console.log(kthSmallest_1(testData, 3))

@@ -7,6 +7,7 @@
  * }
  */
 /**
+ * 广度遍历二叉树
  * @param {TreeNode} root
  * @return {number[][]}
  */
