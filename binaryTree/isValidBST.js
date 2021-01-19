@@ -9,6 +9,7 @@
 /**
  * @param {TreeNode} root
  * @return {boolean}
+ * 方法一
  */
 var isValidBST = function(root) {
     let arr = inorderTraversal(root)
@@ -36,6 +37,29 @@ var inorderTraversal = function(root) {
         node.right && recursive(node.right)
     }
 };
+
+/**
+ * @param {TreeNode} root
+ * @return {boolean}
+ * 方法二
+ */
+var isValidBST_1 = function(root) {
+    if(root === null || (root.left === null && root.right === null)) return true
+    return recursive(root, -Infinity)
+    function recursive(node, value) {
+        if(node === null) return true;
+        if(node.left === null && node.right === null) {
+            // value = node.val
+            return node.val > value
+        }
+        if(!recursive(node.left, value)) return false
+        if(node.val <= value) return false
+        value = node.val
+        if(!recursive(node.right, value)) return false
+        return true
+    }
+};
+
 
 var testData = {
     val: 5,
@@ -77,4 +101,14 @@ var testData_1 = {
     right: null
 }
 
-console.log(isValidBST(testData_1))
+var testData_2 = {
+    val: 1,
+    left: {
+        val: 1,
+        left: null,
+        right: null
+    },
+    right: null
+}
+
+console.log('false:', isValidBST_1(testData_2))
