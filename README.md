@@ -30,6 +30,10 @@
 1. [最长公共前缀](https://github.com/dengshasha/algorithm-study/blob/master/string/longestCommonPrefix.js)
     /[leetcode地址](https://leetcode.com/problems/longest-common-prefix/submissions/)
 
+### 数组
+1. [数组各项，除该项外累乘的结果](https://github.com/dengshasha/algorithm-study/blob/master/array/productArrayExceptSelf.js)
+    /[leetcode地址](https://leetcode.com/problems/product-of-array-except-self/submissions/)
+
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
     [leetcode地址](https://leetcode.com/problems/house-robber/)
