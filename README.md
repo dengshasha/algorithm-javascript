@@ -33,6 +33,10 @@
 ### 数组
 1. [数组各项，除该项外累乘的结果](https://github.com/dengshasha/algorithm-study/blob/master/array/productArrayExceptSelf.js)
     /[leetcode地址](https://leetcode.com/problems/product-of-array-except-self/submissions/)
+2. [在有序的矩阵中查找某个值](https://github.com/dengshasha/algorithm-study/blob/master/array/searchMatrixII.js)
+    /[leetcode地址](https://leetcode.com/problems/search-a-2d-matrix-ii/submissions/)
+3. [在有序矩阵中查找第k小的值](https://github.com/dengshasha/algorithm-study/blob/master/array/kthSmallestInMatrix.js)
+    /[leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/submissions/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
