@@ -39,6 +39,8 @@
     /[leetcode地址](https://leetcode.com/problems/search-a-2d-matrix-ii/submissions/)
 3. [在有序矩阵中查找第k小的值](https://github.com/dengshasha/algorithm-study/blob/master/array/kthSmallestInMatrix.js)
     /[leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/submissions/)
+3. [4数之和II](https://github.com/dengshasha/algorithm-study/blob/master/array/4SumII.js)
+    /[leetcode地址](https://leetcode.com/problems/4sum-ii/submissions/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
