@@ -25,6 +25,8 @@
     [leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/)
 8. [二叉树中序遍历](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/inorderTraversal.js)
     /[leetcode地址](https://leetcode.com/problems/validate-binary-search-tree/submissions/)
+9. [二叉树查找2个节点的公共祖先](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/lowestCommonAncestor.js)
+    /[leetcode地址](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/)
 
 ### 字符串
 1. [最长公共前缀](https://github.com/dengshasha/algorithm-study/blob/master/string/longestCommonPrefix.js)
