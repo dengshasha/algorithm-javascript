@@ -54,6 +54,12 @@
     /[代码详解](https://www.jianshu.com/p/c561d1c2a95a)
 4. [矩阵从左上角顶点走到右下角终点可能的路径总和，路径中有障碍物](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/uniquePathsII.js)
     [leetcode地址](https://leetcode.com/problems/unique-paths-ii/submissions/)
+5. [矩阵查找最小路径和](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/minimumPathSum.js)
+
+    [leetcode地址](https://leetcode.com/problems/minimum-path-sum/)
+
+    [代码详解, 思路和第三题差不多](https://www.jianshu.com/p/c561d1c2a95a)
+
 ### 分治法
 1. [Merge k Sorted Lists](https://github.com/dengshasha/algorithm-study/blob/master/mergeKSortedLists.js)
 
