@@ -6,17 +6,20 @@
  */
 var uniquePaths = function(m, n) {
     let dp = []
+    // 初始化
     for(let i = 0; i < m; i++) {
-        dp[i] = []
+      dp[i] = []
     }
+    // 初始值
     for(let i = 0; i < m; i++) {
-        dp[i][n-1] = 1
+      dp[i][n-1] = 1;
     }
     for(let i = 0; i < n; i++) {
-        dp[m-1][i] = 1
+      dp[m-1][i] = 1;
     }
-    for(let i = m-2; i >= 0; i--) {
-        for(let j = n-2; j >= 0; j--) {
+    // 状态转移
+    for(let i = m-1; i >= 0; i--) {
+        for(let j = n-1; j >= 0; j--) {
             dp[i][j] = dp[i+1][j] + dp[i][j+1]
         }
     }

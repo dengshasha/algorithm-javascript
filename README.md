@@ -41,6 +41,8 @@
     /[leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/submissions/)
 3. [4数之和II](https://github.com/dengshasha/algorithm-study/blob/master/array/4SumII.js)
     /[leetcode地址](https://leetcode.com/problems/4sum-ii/submissions/)
+4. [返回数组中出现频率最高的k个数](https://github.com/dengshasha/algorithm-study/blob/master/array/topKFrequentElements.js)
+    /[leetcode地址](https://leetcode.com/problems/top-k-frequent-elements/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
@@ -49,6 +51,7 @@
     [leetcode地址](https://leetcode.com/problems/house-robber-ii/)
 3. [矩阵从左上角顶点走到右下角终点可能的路径总和](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/uniquePaths.js)
     /[leetcode地址](https://leetcode.com/problems/unique-paths/)
+    /[代码详解](https://www.jianshu.com/p/c561d1c2a95a)
 4. [矩阵从左上角顶点走到右下角终点可能的路径总和，路径中有障碍物](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/uniquePathsII.js)
     [leetcode地址](https://leetcode.com/problems/unique-paths-ii/submissions/)
 ### 分治法
