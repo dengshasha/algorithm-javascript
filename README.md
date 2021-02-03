@@ -42,7 +42,11 @@
 3. [4数之和II](https://github.com/dengshasha/algorithm-study/blob/master/array/4SumII.js)
     /[leetcode地址](https://leetcode.com/problems/4sum-ii/submissions/)
 4. [返回数组中出现频率最高的k个数](https://github.com/dengshasha/algorithm-study/blob/master/array/topKFrequentElements.js)
-    /[leetcode地址](https://leetcode.com/problems/top-k-frequent-elements/)
+    
+    [leetcode地址](https://leetcode.com/problems/top-k-frequent-elements/)
+5. [检查数组中是否存在3个递增的数](https://github.com/dengshasha/algorithm-study/blob/master/array/increaseTripletSubseq.js)
+
+    [leetcode地址](https://leetcode.com/problems/increasing-triplet-subsequence/submissions/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
