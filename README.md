@@ -59,6 +59,11 @@
     [leetcode地址](https://leetcode.com/problems/minimum-path-sum/)
 
     [代码详解, 思路和第三题差不多](https://www.jianshu.com/p/c561d1c2a95a)
+6. [数组查找最大递增路径长度](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/longestIncreaseSubsequence.js)
+
+    [leetcode地址](https://leetcode.com/problems/longest-increasing-subsequence/submissions/)
+
+    [代码详解](https://www.jianshu.com/p/07439f0c3756)
 
 ### 分治法
 1. [Merge k Sorted Lists](https://github.com/dengshasha/algorithm-study/blob/master/mergeKSortedLists.js)
