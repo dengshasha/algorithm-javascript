@@ -5,36 +5,65 @@
  * @param {string} s
  * @return {string}
  */
-var longestPalindrome = function(s) {
-    if(s.length <= 0) return ''
-    if(s.length === 1) return s
-    if(s.length === 2) return s[0] === s[1] ? s : s[0]
-    let maxSubStr = ''
-    for(let i = 1; i < s.length-1; i++) {
-        let temp = findSubStr(i)
-        maxSubStr = temp.length > maxSubStr.length ? temp : maxSubStr
-    }
-    return maxSubStr;
-    function findSubStr(center) {
-        let mid = s[center]
-        let left = center-1, right = center+1
-        // 这两个while循环的意思是，中心元素可能重复，如果是重复的值，则加入子串中
-        while(s[left] === s[center]) {
-            mid += s[left]
+var longestPalindrome_1 = function(s) {
+    let size = s.length
+    if(size <= 1) return s
+    if(size === 2) return s[0] === s[1] ? s : s[0]
+    let palindromicStr = ''
+    for(let i = 1; i < size-1; i++) {
+        let left = i-1, right = i+1;
+        let temp = s[i]
+        while(left >= 0 && s[left] === s[i]) {
+            temp += s[left]
             left--
         }
-        while(s[right] === s[center]) {
-            mid += s[right]
+        while(right < size && s[right] === s[i]) {
+            temp += s[right]
             right++
         }
-        while(left >=0 && right < s.length) {
-            if(s[left] !== s[right]) return mid
-            mid = s[left] + mid + s[right]
+        while(left >= 0 && right < size) {
+            if(s[left] !== s[right]) break;
+            temp = s[left] + temp + s[right]
             left--
             right++
         }
-        return mid;
+        if(temp.length > palindromicStr.length) {
+            palindromicStr = temp
+        }
     }
+    return palindromicStr
+};
+
+/**
+ * 方法二：扩展字符的中心扩散法
+ * 时间复杂度：O(n^2) 空间复杂度：O(n)
+ * @param {string} s
+ * @return {string}
+ */
+var longestPalindrome_2 = function(s) {
+    let size = s.length
+    if(size <= 1) return s
+    let str = '#'
+    for(let i = 0; i < size; i++) {
+        str += s[i] + '#'
+    }
+    size = str.length
+    let min = 0, max = 0
+    for(let i = 1; i < size-1; i++) {
+        let left = i-1, right = i+1;
+        while(left >= 0 && right < size) {
+            if(str[left] !== str[right]) break;
+            left--
+            right++
+        }
+        if(right-left > max-min) {
+            max = right-1
+            min = left+1
+        }
+    }
+    min = Math.floor((min)/2)
+    max = Math.ceil((max-1)/2)
+    return s.slice(min, max)
 };
 
 /**
@@ -118,9 +147,10 @@ var longestPalindrome_M = function(s) {
     return s.slice(palinStart, palinMaxLen+palinStart)
 }
 
-console.log('should bcdedcb', longestPalindrome_M("abcdedcb"))
-console.log('should cbbc:', longestPalindrome_M('cbbc'))
-console.log('should a:', longestPalindrome_M('a'))
-console.log('should a:', longestPalindrome_M('ab'))
-console.log('should abbacdca:', longestPalindrome_M('abbacdca'))
-console.log('should adada:',longestPalindrome_M("babadada"))
+console.log('aca:', longestPalindrome_2("aacabdkacaa"))
+// console.log('should bcdedcb', longestPalindrome_M("abcdedcb"))
+// console.log('should cbbc:', longestPalindrome_M('cbbc'))
+// console.log('should a:', longestPalindrome_M('a'))
+// console.log('should a:', longestPalindrome_M('ab'))
+// console.log('should abbacdca:', longestPalindrome_M('abbacdca'))
+// console.log('should adada:',longestPalindrome_M("babadada"))

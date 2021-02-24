@@ -47,6 +47,9 @@
 5. [检查数组中是否存在3个递增的数](https://github.com/dengshasha/algorithm-study/blob/master/array/increaseTripletSubseq.js)
 
     [leetcode地址](https://leetcode.com/problems/increasing-triplet-subsequence/submissions/)
+6. [在一个循环有序的数组中查找特定的值](https://github.com/dengshasha/algorithm-study/blob/master/array/searchRotatedSortedArray.js)
+
+    [leetcode地址](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
