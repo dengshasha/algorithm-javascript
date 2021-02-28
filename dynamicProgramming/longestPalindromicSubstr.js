@@ -71,6 +71,33 @@ var longestPalindrome_2 = function(s) {
 };
 
 /**
+ * 方法三：动态规划
+ * 时间复杂度：O(n^2) 空间复杂度：O(n^2)
+ * @param {string} s
+ * @return {string}
+ */
+var longestPalindrome_3 = function(s) {
+    let dp = [], size = s.length
+    let start = 0, end = 0;
+    for(let i = 0; i < size; i++) {
+        dp[i] = []
+    }
+    for(let i = 0; i < size; i++) {
+        dp[i][i] = true;
+    }
+    for(let j = 1; j < size; j++) {
+        for(let i = 0; i < j; i++) {
+            dp[i][j] = j-i === 1 ? s[i] === s[j] : dp[i+1][j-1] && s[i] === s[j]
+            if(dp[i][j] && (j-i > end - start)) {
+                end = j
+                start = i
+            }
+        }
+    }
+    return s.slice(start, end+1)
+}
+
+/**
  * 方法三：Manacher算法
  * 性能提升不多，难度提升不少
  * @param {string} s
@@ -118,8 +145,8 @@ var longestPalindrome_M = function(s) {
     }
     return s.slice(palinStart, palinMaxLen+palinStart)
 }
-
-console.log('aca:', longestPalindrome_2("aacabdkacaa"))
+console.log(longestPalindrome_3('aaca'))
+// console.log('aca:', longestPalindrome_2("aacabdkacaa"))
 // console.log('should bcdedcb', longestPalindrome_M("abcdedcb"))
 // console.log('should cbbc:', longestPalindrome_M('cbbc'))
 // console.log('should a:', longestPalindrome_M('a'))

@@ -71,6 +71,12 @@
     [leetcode地址](https://leetcode.com/problems/longest-increasing-subsequence/submissions/)
 
     [代码详解](https://www.jianshu.com/p/07439f0c3756)
+7. [字符查找最长回文子串](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/longestPalindromicSubstr.js)
+
+    [leetcode地址](https://leetcode.com/problems/longest-palindromic-substring/submissions/)
+
+    [代码详解](https://www.jianshu.com/p/da47c81cd1a3)
+
 
 ### 分治法
 1. [Merge k Sorted Lists](https://github.com/dengshasha/algorithm-study/blob/master/mergeKSortedLists.js)
