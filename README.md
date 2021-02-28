@@ -10,23 +10,32 @@
 
 ### 二叉树
 1. [广度遍历二叉树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/levelOrderTraversal.js)
-    /[leetcode地址](https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/)
+
+    [leetcode地址](https://leetcode.com/problems/binary-tree-level-order-traversal/submissions/)
 2. [Z字型广度遍历二叉树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/zigzagLevelOrderTraversal.js)
-    /[leetcode地址](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/submissions/)
+
+    [leetcode地址](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/submissions/)
 3. [对称二叉树判断](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/symmetricTree.js)
-    /[leetcode地址](https://leetcode.com/problems/symmetric-tree/submissions/)
+
+    [leetcode地址](https://leetcode.com/problems/symmetric-tree/submissions/)
 4. [有序数组转化成平衡二叉搜索树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/convertSortedArrayToBST.js)
-    /[leetcode地址](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/)
+
+    [leetcode地址](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/)
 5. [打印二叉树指定路径和](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/pathSumII.js)
-    /[leetcode地址](https://leetcode.com/problems/path-sum-ii/submissions/)
+
+    [leetcode地址](https://leetcode.com/problems/path-sum-ii/submissions/)
 6. [链表转换成平衡二叉搜索树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/convertSortedListToBST.js)
-    /[leetcode地址](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/submissions/)
+
+    [leetcode地址](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/submissions/)
 7. [寻找二叉搜索树中第K小的值](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/kthSmallestEleInBST.js)
+
     [leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/)
 8. [二叉树中序遍历](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/inorderTraversal.js)
-    /[leetcode地址](https://leetcode.com/problems/validate-binary-search-tree/submissions/)
+
+    [leetcode地址](https://leetcode.com/problems/validate-binary-search-tree/submissions/)
 9. [二叉树查找2个节点的公共祖先](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/lowestCommonAncestor.js)
-    /[leetcode地址](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/)
+
+    [leetcode地址](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/)
 
 ### 字符串
 1. [最长公共前缀](https://github.com/dengshasha/algorithm-study/blob/master/string/longestCommonPrefix.js)
@@ -50,6 +59,13 @@
 6. [在一个循环有序的数组中查找特定的值](https://github.com/dengshasha/algorithm-study/blob/master/array/searchRotatedSortedArray.js)
 
     [leetcode地址](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/)
+7. [两数之和](https://github.com/dengshasha/algorithm-study/blob/master/array/twoSum.js)
+
+    [leetcode地址](https://leetcode.com/problems/two-sum/)
+
+8. [在有序数组中查找两数之和](https://github.com/dengshasha/algorithm-study/blob/master/array/twoSumII.js)
+
+    [leetcode地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
