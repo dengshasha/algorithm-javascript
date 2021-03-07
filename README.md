@@ -1,5 +1,7 @@
 ### 面试题
-1. [打印二叉树路径](https://github.com/dengshasha/algorithm-study/blob/master/interview/printBinaryTreePath.js)
+1. [字节跳动打印二叉树路径](https://github.com/dengshasha/algorithm-study/blob/master/interview/printBinaryTreePath.js)
+
+    [leetcode地址](https://leetcode.com/problems/binary-tree-paths/)
 2. [将数组结构转换成树形结构](https://github.com/dengshasha/algorithm-study/blob/master/interview/convertArrToTree.js)
 3. [合并两个有序数组](https://github.com/dengshasha/algorithm-study/blob/master/interview/mergeTwoSortedArray.js)
     / [leetcode地址](https://leetcode.com/problems/merge-sorted-array/)
@@ -32,10 +34,21 @@
     [leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/)
 8. [二叉树中序遍历](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/inorderTraversal.js)
 
+<<<<<<< HEAD
     [leetcode地址](https://leetcode.com/problems/validate-binary-search-tree/submissions/)
 9. [二叉树查找2个节点的公共祖先](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/lowestCommonAncestor.js)
 
     [leetcode地址](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/)
+=======
+    [leetcode地址](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+9. [二叉树查找2个节点的公共祖先](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/lowestCommonAncestor.js)
+    /[leetcode地址](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/)
+10. [校验是否是合法的二叉搜索树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/isValidBST.js)
+
+    [leetcode地址](https://leetcode.com/problems/validate-binary-search-tree/submissions/)
+
+    [代码详解](https://www.jianshu.com/p/0ccfb6021d86)
+>>>>>>> 843c74b46eee01b9ad853fc77a9ffd4d86d847e2
 
 ### 字符串
 1. [最长公共前缀](https://github.com/dengshasha/algorithm-study/blob/master/string/longestCommonPrefix.js)
