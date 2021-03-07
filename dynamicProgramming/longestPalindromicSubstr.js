@@ -71,52 +71,20 @@ var longestPalindrome_2 = function(s) {
 };
 
 /**
- * 方法三：Manacher算法
- * 性能提升不多，难度提升不少
+ * 方法三：动态规划
  * @param {string} s
  * @return {string}
  */
-var longestPalindrome_M = function(s) {
-    let size = s.length
-    if(size <= 1) return s
-    let str = '#'
-    for(let i = 0; i < size; i++) {
-        str += s[i] + '#'
-    }
-    size = str.length
+var longestPalindrome_dp = function(s) {
     let dp = []
-    dp[0] = 0
-    let maxRight = 0, center = 0;
-    let palinStart = 0, palinMaxLen = 0;
+    let size = s.length
+    for(let i = 0; i < size; i++) {
+        dp[i] = []
+    }
     for(let i = 1; i < size; i++) {
-        createDp(i)
+        
     }
-    function createDp(i) {
-        dp[i] = dp[i] || 0;
-        if(i < maxRight) {
-            // 这里很难理解
-            let mirror = 2 * center - i
-            // 正常情况下，中心扩展法，就是从中心，往两边走，走到值不同就停下
-            // 这里的意思就是，不一定是从中心往前减一位，往后加一位开始，即跳过该位置去扩散
-            dp[i] = Math.min(maxRight-i, dp[mirror])
-        }
-        // 如果dp[i] = 0, 那么这就是普通的中心扩散
-        let left = i-(dp[i]), right = i+(dp[i])
-        while(left-- >=0 && right++ < newS.length) {
-            if(newS[left] !== newS[right]) break;
-            dp[i]++
-        }
-        if(right-1 > maxRight) {
-            maxRight = right-1
-            center = i;
-        }
-        if(dp[i] > palinMaxLen) {
-            // 起始位置要和原子串映射
-            palinStart = (i - dp[i]) / 2
-            palinMaxLen = dp[i];
-        }
-    }
-    return s.slice(palinStart, palinMaxLen+palinStart)
+
 }
 
 console.log('aca:', longestPalindrome_2("aacabdkacaa"))

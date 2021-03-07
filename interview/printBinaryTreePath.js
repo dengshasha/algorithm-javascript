@@ -1,45 +1,53 @@
-//字节跳动面试题
-function printBinaryTreePath(treeNode) {
-    print(treeNode)
-    function print(treeNode, value=[]) {
-        if(treeNode === null) return;
-        if(treeNode.left === null && treeNode.right === null) {
-            value.push(treeNode.value)
-            console.log(value)
-            return;
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val, left, right) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.left = (left===undefined ? null : left)
+ *     this.right = (right===undefined ? null : right)
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {string[]}
+ */
+var binaryTreePaths = function(root) {
+    let res = []
+    recursive(root, [])
+    return res
+    function recursive(node, arr) {
+        if(node === null) return;
+        if(node.left === null && node.right === null) {
+        arr.push(node.val);
+        res.push(arr.join('->'))
+        arr.pop()
+        return;
         }
-        if(treeNode.left) {
-            value.push(treeNode.value)
-            print(treeNode.left, [].concat(value))
-            value.pop()
-        }
-        if(treeNode.right) {
-            value.push(treeNode.value)
-            print(treeNode.right, [].concat(value))
-            value.pop()
-        }
+        arr.push(node.val)
+        recursive(node.left, arr)
+        recursive(node.right, arr)
+        arr.pop()
     }
-}
+};
 
 function TreeNode(value) {
-    this.value = value
+    this.val = value
     this.left = null
     this.right = null
 }
 
 var testValue = {
-    value: 1,
+    val: 1,
     left: {
-        value: 2,
+        val: 2,
         left: {
-            value: 4,
+            val: 4,
             left: null,
             right: null
         },
         right: {
-            value: 5,
+            val: 5,
             left: {
-                value: 6,
+                val: 6,
                 left: null,
                 right: null
             },
@@ -47,9 +55,9 @@ var testValue = {
         }
     },
     right: {
-        value: 3,
+        val: 3,
         left: {
-            value: 7,
+            val: 7,
             left: null,
             right: null
         },

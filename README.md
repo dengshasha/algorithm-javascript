@@ -1,5 +1,7 @@
 ### 面试题
-1. [打印二叉树路径](https://github.com/dengshasha/algorithm-study/blob/master/interview/printBinaryTreePath.js)
+1. [字节跳动打印二叉树路径](https://github.com/dengshasha/algorithm-study/blob/master/interview/printBinaryTreePath.js)
+
+    [leetcode地址](https://leetcode.com/problems/binary-tree-paths/)
 2. [将数组结构转换成树形结构](https://github.com/dengshasha/algorithm-study/blob/master/interview/convertArrToTree.js)
 3. [合并两个有序数组](https://github.com/dengshasha/algorithm-study/blob/master/interview/mergeTwoSortedArray.js)
     / [leetcode地址](https://leetcode.com/problems/merge-sorted-array/)
