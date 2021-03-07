@@ -45,21 +45,13 @@ var inorderTraversal = function(root) {
  */
 var isValidBST_1 = function(root) {
     if(root === null || (root.left === null && root.right === null)) return true
-    return recursive(root, -Infinity)
-    function recursive(node, value) {
+    return recursive(root, -Infinity, Infinity)
+    function recursive(node, left, right) {
         if(node === null) return true;
-        if(node.left === null && node.right === null) {
-            // value = node.val
-            return node.val > value
-        }
-        if(!recursive(node.left, value)) return false
-        if(node.val <= value) return false
-        value = node.val
-        if(!recursive(node.right, value)) return false
-        return true
+        if(node.val <= left || node.val >= right) return false
+        return recursive(node.left, left, node.val) && recursive(node.right, node.val, right)
     }
 };
-
 
 var testData = {
     val: 5,
@@ -102,10 +94,14 @@ var testData_1 = {
 }
 
 var testData_2 = {
-    val: 1,
+    val: 5,
     left: {
-        val: 1,
-        left: null,
+        val: 14,
+        left: {
+            val: 1,
+            left: null,
+            right: null
+        },
         right: null
     },
     right: null

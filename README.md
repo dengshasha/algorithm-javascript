@@ -26,9 +26,15 @@
 7. [寻找二叉搜索树中第K小的值](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/kthSmallestEleInBST.js)
     [leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/)
 8. [二叉树中序遍历](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/inorderTraversal.js)
-    /[leetcode地址](https://leetcode.com/problems/validate-binary-search-tree/submissions/)
+
+    [leetcode地址](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 9. [二叉树查找2个节点的公共祖先](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/lowestCommonAncestor.js)
     /[leetcode地址](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/)
+10. [校验是否是合法的二叉搜索树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/isValidBST.js)
+
+    [leetcode地址](https://leetcode.com/problems/validate-binary-search-tree/submissions/)
+
+    [代码详解](https://www.jianshu.com/p/0ccfb6021d86)
 
 ### 字符串
 1. [最长公共前缀](https://github.com/dengshasha/algorithm-study/blob/master/string/longestCommonPrefix.js)
