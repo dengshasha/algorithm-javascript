@@ -80,6 +80,9 @@
 9. [返回给定数组的所有子序列集合](https://github.com/dengshasha/algorithm-study/blob/master/array/subsets.js)
 
     [leetcode地址](https://leetcode.com/problems/subsets/submissions/)
+10. [矩阵中的0“传染”](https://github.com/dengshasha/algorithm-study/blob/master/array/setMatrixZeroes.js)
+
+    [leetcode地址](https://leetcode.com/problems/set-matrix-zeroes/solution/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
