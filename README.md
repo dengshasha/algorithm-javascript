@@ -8,7 +8,11 @@
 4. [求二叉树的高度](https://github.com/dengshasha/algorithm-study/blob/master/interview/maxDepthOfBinaryTree.js)
     / [leetcode地址](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 5. [二叉树路径和判断](https://github.com/dengshasha/algorithm-study/blob/master/interview/pathSum.js)
-    /[leetcode地址](https://leetcode.com/problems/path-sum/submissions/)
+
+    [leetcode地址](https://leetcode.com/problems/path-sum/submissions/)
+6. [浦发银行笔试题--颜色排序](https://github.com/dengshasha/algorithm-study/blob/master/interview/sortColors.js)
+
+    [leetcode地址](https://leetcode.com/problems/sort-colors/submissions/)
 
 ### 二叉树
 1. [广度遍历二叉树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/levelOrderTraversal.js)
