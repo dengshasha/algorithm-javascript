@@ -92,6 +92,9 @@
 10. [矩阵中的0“传染”](https://github.com/dengshasha/algorithm-study/blob/master/array/setMatrixZeroes.js)
 
     [leetcode地址](https://leetcode.com/problems/set-matrix-zeroes/solution/)
+11. [买卖股票获取最大收益I]((https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStock.js)
+
+    [leetcode地址](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
