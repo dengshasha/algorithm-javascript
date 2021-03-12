@@ -48,6 +48,11 @@
 
     [代码详解](https://www.jianshu.com/p/0ccfb6021d86)
 
+### 链表
+1. [单链表排序](https://github.com/dengshasha/algorithm-study/blob/master/linkList/sortList.js)
+
+    [leetcode地址](https://leetcode.com/problems/sort-list/submissions/)
+
 ### 字符串
 1. [最长公共前缀](https://github.com/dengshasha/algorithm-study/blob/master/string/longestCommonPrefix.js)
 
