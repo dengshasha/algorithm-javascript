@@ -8,7 +8,11 @@
 4. [求二叉树的高度](https://github.com/dengshasha/algorithm-study/blob/master/interview/maxDepthOfBinaryTree.js)
     / [leetcode地址](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 5. [二叉树路径和判断](https://github.com/dengshasha/algorithm-study/blob/master/interview/pathSum.js)
-    /[leetcode地址](https://leetcode.com/problems/path-sum/submissions/)
+
+    [leetcode地址](https://leetcode.com/problems/path-sum/submissions/)
+6. [浦发银行笔试题--颜色排序](https://github.com/dengshasha/algorithm-study/blob/master/interview/sortColors.js)
+
+    [leetcode地址](https://leetcode.com/problems/sort-colors/submissions/)
 
 ### 二叉树
 1. [广度遍历二叉树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/levelOrderTraversal.js)
@@ -34,25 +38,28 @@
     [leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/)
 8. [二叉树中序遍历](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/inorderTraversal.js)
 
-<<<<<<< HEAD
-    [leetcode地址](https://leetcode.com/problems/validate-binary-search-tree/submissions/)
+    [leetcode地址](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 9. [二叉树查找2个节点的公共祖先](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/lowestCommonAncestor.js)
 
     [leetcode地址](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/)
-=======
-    [leetcode地址](https://leetcode.com/problems/binary-tree-inorder-traversal/)
-9. [二叉树查找2个节点的公共祖先](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/lowestCommonAncestor.js)
-    /[leetcode地址](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/submissions/)
 10. [校验是否是合法的二叉搜索树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/isValidBST.js)
 
     [leetcode地址](https://leetcode.com/problems/validate-binary-search-tree/submissions/)
 
     [代码详解](https://www.jianshu.com/p/0ccfb6021d86)
->>>>>>> 843c74b46eee01b9ad853fc77a9ffd4d86d847e2
+
+### 链表
+1. [单链表排序](https://github.com/dengshasha/algorithm-study/blob/master/linkList/sortList.js)
+
+    [leetcode地址](https://leetcode.com/problems/sort-list/submissions/)
 
 ### 字符串
 1. [最长公共前缀](https://github.com/dengshasha/algorithm-study/blob/master/string/longestCommonPrefix.js)
-    /[leetcode地址](https://leetcode.com/problems/longest-common-prefix/submissions/)
+
+    [leetcode地址](https://leetcode.com/problems/longest-common-prefix/submissions/)
+2. [校验括号的合法性](https://github.com/dengshasha/algorithm-study/blob/master/string/validParentheses.js)
+
+    [leetcode地址](https://leetcode.com/problems/valid-parentheses/submissions/)
 
 ### 数组
 1. [数组各项，除该项外累乘的结果](https://github.com/dengshasha/algorithm-study/blob/master/array/productArrayExceptSelf.js)
@@ -79,6 +86,15 @@
 8. [在有序数组中查找两数之和](https://github.com/dengshasha/algorithm-study/blob/master/array/twoSumII.js)
 
     [leetcode地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+9. [返回给定数组的所有子序列集合](https://github.com/dengshasha/algorithm-study/blob/master/array/subsets.js)
+
+    [leetcode地址](https://leetcode.com/problems/subsets/submissions/)
+10. [矩阵中的0“传染”](https://github.com/dengshasha/algorithm-study/blob/master/array/setMatrixZeroes.js)
+
+    [leetcode地址](https://leetcode.com/problems/set-matrix-zeroes/solution/)
+11. [买卖股票获取最大收益I]((https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStock.js)
+
+    [leetcode地址](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
