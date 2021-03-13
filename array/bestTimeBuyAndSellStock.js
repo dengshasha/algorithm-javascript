@@ -19,7 +19,7 @@ var maxProfit = function(prices) {
     }
     return profit
 };
-console.log('4:', maxProfit([3,2,6,5,0,3]))
+console.log('4:', maxProfit([3,2,5,6,7,1,3]))
 console.log('0:', maxProfit([7,6,4,3,1]))
 console.log('5:', maxProfit([7,1,5,3,6,4]))
 console.log('2:', maxProfit([2,1,2,1,0,1,2]))
