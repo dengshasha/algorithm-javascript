@@ -14,6 +14,11 @@
 
     [leetcode地址](https://leetcode.com/problems/sort-colors/submissions/)
 
+### 最小（大）堆
+1. [找数组中第K大的数](https://github.com/dengshasha/algorithm-study/blob/master/array/kthLargestElement.js)
+
+    [leetcode地址](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+
 ### 二叉树
 1. [广度遍历二叉树](https://github.com/dengshasha/algorithm-study/blob/master/binaryTree/levelOrderTraversal.js)
 
@@ -92,7 +97,7 @@
 10. [矩阵中的0“传染”](https://github.com/dengshasha/algorithm-study/blob/master/array/setMatrixZeroes.js)
 
     [leetcode地址](https://leetcode.com/problems/set-matrix-zeroes/solution/)
-11. [买卖股票获取最大收益I]((https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStock.js)
+11. [买卖股票获取最大收益I](https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStock.js)
 
     [leetcode地址](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/)
 12. [买卖股票获取最大收益II]((https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStockII.js)
