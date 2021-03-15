@@ -25,6 +25,17 @@ var maxProfit = function(prices) {
     return profit + sub
 };
 
+// 简化版
+var maxProfit_1 = function(prices) {
+    let size = prices.length
+    let profit = 0
+    for(let i = 1; i < size; i++) {
+        if(prices[i] > prices[i-1]) {
+            profit += prices[i] - prices[i-1]
+        } 
+    }
+    return profit
+};
 console.log('11:', maxProfit([2,1,4,5,2,9,7]))
 console.log('7:', maxProfit([7,1,5,3,6,4]))
 console.log('6:', maxProfit([1,2,3,4,5,1,3]))
