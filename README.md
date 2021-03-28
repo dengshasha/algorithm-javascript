@@ -103,6 +103,11 @@
 12. [买卖股票获取最大收益II]((https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStockII.js)
 
     [leetcode地址](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/)
+13. [数组查找最大递增路径长度](https://github.com/dengshasha/algorithm-study/blob/master/array/longestIncreaseSubsequence.js)
+
+    [leetcode地址](https://leetcode.com/problems/longest-increasing-subsequence/submissions/)
+
+    [代码详解](https://www.jianshu.com/p/07439f0c3756)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
