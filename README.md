@@ -100,7 +100,7 @@
 11. [买卖股票获取最大收益I](https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStock.js)
 
     [leetcode地址](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/)
-12. [买卖股票获取最大收益II]((https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStockII.js)
+12. [买卖股票获取最大收益II](https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStockII.js)
 
     [leetcode地址](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/)
 13. [数组查找最大递增路径长度](https://github.com/dengshasha/algorithm-study/blob/master/array/longestIncreaseSubsequence.js)
@@ -134,6 +134,11 @@
     [leetcode地址](https://leetcode.com/problems/longest-palindromic-substring/submissions/)
 
     [代码详解](https://www.jianshu.com/p/da47c81cd1a3)
+
+### 找不到分类
+1. [实现一个最近最少使用的缓存结构](https://github.com/dengshasha/algorithm-study/blob/master/others/LRUCache.js)
+
+    [leetcode地址](https://leetcode.com/problems/lru-cache/)
 
 
 ### 分治法
