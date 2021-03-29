@@ -108,6 +108,9 @@
     [leetcode地址](https://leetcode.com/problems/longest-increasing-subsequence/submissions/)
 
     [代码详解](https://www.jianshu.com/p/07439f0c3756)
+14. [字符串是否能由给出的字典中的K个子串构成](https://github.com/dengshasha/algorithm-study/blob/master/array/wordBreak.js)
+
+    [leetcode地址](https://leetcode.com/problems/word-break/submissions/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
@@ -134,6 +137,9 @@
     [leetcode地址](https://leetcode.com/problems/longest-palindromic-substring/submissions/)
 
     [代码详解](https://www.jianshu.com/p/da47c81cd1a3)
+8. [字符串是否能由给出的字典中的K个子串构成](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/wordBreak.js)
+
+    [leetcode地址](https://leetcode.com/problems/word-break/submissions/)
 
 ### 找不到分类
 1. [实现一个最近最少使用的缓存结构](https://github.com/dengshasha/algorithm-study/blob/master/others/LRUCache.js)
