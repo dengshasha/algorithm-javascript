@@ -145,6 +145,9 @@
 1. [实现一个最近最少使用的缓存结构](https://github.com/dengshasha/algorithm-study/blob/master/others/LRUCache.js)
 
     [leetcode地址](https://leetcode.com/problems/lru-cache/)
+2. [设计一个不包含重复数据，可以插入，删除，随机获取值的类](https://github.com/dengshasha/algorithm-study/blob/master/others/randomizedSet.js)
+
+    [leetcode地址](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 
 
 ### 分治法
