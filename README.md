@@ -112,6 +112,14 @@
 
     [leetcode地址](https://leetcode.com/problems/word-break/submissions/)
 
+15. [每日温度--给一个表示温度的整数数组，输出每天需要等待比其更高温出现的天数](https://github.com/dengshasha/algorithm-study/blob/master/array/dailyTemperatures.js)
+
+    [leetcode地址](https://leetcode-cn.com/problems/daily-temperatures/)
+
+16. [最短无序连续子数组](https://github.com/dengshasha/algorithm-study/blob/master/array/findUnsortedSubarray.js)
+
+    [leetcode地址](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)
+
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
     [leetcode地址](https://leetcode.com/problems/house-robber/)
