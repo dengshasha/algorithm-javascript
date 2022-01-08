@@ -119,6 +119,12 @@
 16. [最短无序连续子数组](https://github.com/dengshasha/algorithm-study/blob/master/array/findUnsortedSubarray.js)
 
     [leetcode地址](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)
+17. [容器最大面积](https://github.com/dengshasha/algorithm-study/blob/master/array/containerWithMostWater.js)
+
+    [leetcode地址](https://leetcode.com/problems/container-with-most-water/submissions/)
+18. [寻找数组中满足大于左右邻居的一个数](https://github.com/dengshasha/algorithm-study/blob/master/array/findPeakElement.js)
+
+    [leetcode地址](https://leetcode.com/problems/find-peak-element/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
