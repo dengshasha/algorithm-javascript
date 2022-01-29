@@ -67,64 +67,27 @@
     [leetcode地址](https://leetcode.com/problems/valid-parentheses/submissions/)
 
 ### 数组
-1. [数组各项，除该项外累乘的结果](https://github.com/dengshasha/algorithm-study/blob/master/array/productArrayExceptSelf.js)
-    /[leetcode地址](https://leetcode.com/problems/product-of-array-except-self/submissions/)
-2. [在有序的矩阵中查找某个值](https://github.com/dengshasha/algorithm-study/blob/master/array/searchMatrixII.js)
-    /[leetcode地址](https://leetcode.com/problems/search-a-2d-matrix-ii/submissions/)
-3. [在有序矩阵中查找第k小的值](https://github.com/dengshasha/algorithm-study/blob/master/array/kthSmallestInMatrix.js)
-    /[leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/submissions/)
-3. [4数之和II](https://github.com/dengshasha/algorithm-study/blob/master/array/4SumII.js)
-    /[leetcode地址](https://leetcode.com/problems/4sum-ii/submissions/)
-4. [返回数组中出现频率最高的k个数](https://github.com/dengshasha/algorithm-study/blob/master/array/topKFrequentElements.js)
-    
-    [leetcode地址](https://leetcode.com/problems/top-k-frequent-elements/)
-5. [检查数组中是否存在3个递增的数](https://github.com/dengshasha/algorithm-study/blob/master/array/increaseTripletSubseq.js)
+1. [数组各项，除该项外累乘的结果](https://github.com/dengshasha/algorithm-study/blob/master/array/productArrayExceptSelf.js) || [leetcode地址](https://leetcode.com/problems/product-of-array-except-self/submissions/)
+2. [在有序的矩阵中查找某个值](https://github.com/dengshasha/algorithm-study/blob/master/array/searchMatrixII.js) || [leetcode地址](https://leetcode.com/problems/search-a-2d-matrix-ii/submissions/)
+3. [在有序矩阵中查找第k小的值](https://github.com/dengshasha/algorithm-study/blob/master/array/kthSmallestInMatrix.js) || [leetcode地址](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/submissions/)
+3. [4数之和II](https://github.com/dengshasha/algorithm-study/blob/master/array/4SumII.js) || [leetcode地址](https://leetcode.com/problems/4sum-ii/submissions/)
+4. [返回数组中出现频率最高的k个数](https://github.com/dengshasha/algorithm-study/blob/master/array/topKFrequentElements.js) || [leetcode地址](https://leetcode.com/problems/top-k-frequent-elements/)
+5. [检查数组中是否存在3个递增的数](https://github.com/dengshasha/algorithm-study/blob/master/array/increaseTripletSubseq.js) || [leetcode地址](https://leetcode.com/problems/increasing-triplet-subsequence/submissions/)
+6. [在一个循环有序的数组中查找特定的值](https://github.com/dengshasha/algorithm-study/blob/master/array/searchRotatedSortedArray.js) || [leetcode地址](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/)
+7. [两数之和](https://github.com/dengshasha/algorithm-study/blob/master/array/twoSum.js) || [leetcode地址](https://leetcode.com/problems/two-sum/)
+8. [在有序数组中查找两数之和](https://github.com/dengshasha/algorithm-study/blob/master/array/twoSumII.js) || [leetcode地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
+9. [返回给定数组的所有子序列集合](https://github.com/dengshasha/algorithm-study/blob/master/array/subsets.js) || [leetcode地址](https://leetcode.com/problems/subsets/submissions/)
+10. [矩阵中的0“传染”](https://github.com/dengshasha/algorithm-study/blob/master/array/setMatrixZeroes.js) || [leetcode地址](https://leetcode.com/problems/set-matrix-zeroes/solution/)
+11. [买卖股票获取最大收益I](https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStock.js) || [leetcode地址](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/)
+12. [买卖股票获取最大收益II](https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStockII.js) || [leetcode地址](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/)
+13. [数组查找最大递增路径长度](https://github.com/dengshasha/algorithm-study/blob/master/array/longestIncreaseSubsequence.js) || [leetcode地址](https://leetcode.com/problems/longest-increasing-subsequence/submissions/) || [代码详解](https://www.jianshu.com/p/07439f0c3756)
+14. [字符串是否能由给出的字典中的K个子串构成](https://github.com/dengshasha/algorithm-study/blob/master/array/wordBreak.js) || [leetcode地址](https://leetcode.com/problems/word-break/submissions/)
 
-    [leetcode地址](https://leetcode.com/problems/increasing-triplet-subsequence/submissions/)
-6. [在一个循环有序的数组中查找特定的值](https://github.com/dengshasha/algorithm-study/blob/master/array/searchRotatedSortedArray.js)
-
-    [leetcode地址](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/)
-7. [两数之和](https://github.com/dengshasha/algorithm-study/blob/master/array/twoSum.js)
-
-    [leetcode地址](https://leetcode.com/problems/two-sum/)
-
-8. [在有序数组中查找两数之和](https://github.com/dengshasha/algorithm-study/blob/master/array/twoSumII.js)
-
-    [leetcode地址](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-9. [返回给定数组的所有子序列集合](https://github.com/dengshasha/algorithm-study/blob/master/array/subsets.js)
-
-    [leetcode地址](https://leetcode.com/problems/subsets/submissions/)
-10. [矩阵中的0“传染”](https://github.com/dengshasha/algorithm-study/blob/master/array/setMatrixZeroes.js)
-
-    [leetcode地址](https://leetcode.com/problems/set-matrix-zeroes/solution/)
-11. [买卖股票获取最大收益I](https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStock.js)
-
-    [leetcode地址](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/)
-12. [买卖股票获取最大收益II](https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStockII.js)
-
-    [leetcode地址](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/)
-13. [数组查找最大递增路径长度](https://github.com/dengshasha/algorithm-study/blob/master/array/longestIncreaseSubsequence.js)
-
-    [leetcode地址](https://leetcode.com/problems/longest-increasing-subsequence/submissions/)
-
-    [代码详解](https://www.jianshu.com/p/07439f0c3756)
-14. [字符串是否能由给出的字典中的K个子串构成](https://github.com/dengshasha/algorithm-study/blob/master/array/wordBreak.js)
-
-    [leetcode地址](https://leetcode.com/problems/word-break/submissions/)
-
-15. [每日温度--给一个表示温度的整数数组，输出每天需要等待比其更高温出现的天数](https://github.com/dengshasha/algorithm-study/blob/master/array/dailyTemperatures.js)
-
-    [leetcode地址](https://leetcode-cn.com/problems/daily-temperatures/)
-
-16. [最短无序连续子数组](https://github.com/dengshasha/algorithm-study/blob/master/array/findUnsortedSubarray.js)
-
-    [leetcode地址](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)
-17. [容器最大面积](https://github.com/dengshasha/algorithm-study/blob/master/array/containerWithMostWater.js)
-
-    [leetcode地址](https://leetcode.com/problems/container-with-most-water/submissions/)
-18. [寻找数组中满足大于左右邻居的一个数](https://github.com/dengshasha/algorithm-study/blob/master/array/findPeakElement.js)
-
-    [leetcode地址](https://leetcode.com/problems/find-peak-element/)
+15. [每日温度--给一个表示温度的整数数组，输出每天需要等待比其更高温出现的天数](https://github.com/dengshasha/algorithm-study/blob/master/array/dailyTemperatures.js) || [leetcode地址](https://leetcode-cn.com/problems/daily-temperatures/)
+16. [最短无序连续子数组](https://github.com/dengshasha/algorithm-study/blob/master/array/findUnsortedSubarray.js) || [leetcode地址](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)
+17. [容器最大面积](https://github.com/dengshasha/algorithm-study/blob/master/array/containerWithMostWater.js) || [leetcode地址](https://leetcode.com/problems/container-with-most-water/submissions/)
+18. [寻找数组中满足大于左右邻居的一个数](https://github.com/dengshasha/algorithm-study/blob/master/array/findPeakElement.js) || [leetcode地址](https://leetcode.com/problems/find-peak-element/)
+19. [返回数组中每个元素向右到边界，比该元素小的元素的总数](https://github.com/dengshasha/algorithm-study/blob/master/array/countSmaller.js) || [leetcode地址](https://leetcode.com/problems/count-of-smaller-numbers-after-self/submissions/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
