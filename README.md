@@ -90,34 +90,15 @@
 19. [返回数组中每个元素向右到边界，比该元素小的元素的总数](https://github.com/dengshasha/algorithm-study/blob/master/array/countSmaller.js) || [leetcode地址](https://leetcode.com/problems/count-of-smaller-numbers-after-self/submissions/)
 
 ### 动态规划
-1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js)
-    [leetcode地址](https://leetcode.com/problems/house-robber/)
-2. [强盗偷东西，价值最大化II](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobberII.js)
-    [leetcode地址](https://leetcode.com/problems/house-robber-ii/)
-3. [矩阵从左上角顶点走到右下角终点可能的路径总和](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/uniquePaths.js)
-    /[leetcode地址](https://leetcode.com/problems/unique-paths/)
-    /[代码详解](https://www.jianshu.com/p/c561d1c2a95a)
-4. [矩阵从左上角顶点走到右下角终点可能的路径总和，路径中有障碍物](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/uniquePathsII.js)
-    [leetcode地址](https://leetcode.com/problems/unique-paths-ii/submissions/)
-5. [矩阵查找最小路径和](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/minimumPathSum.js)
-
-    [leetcode地址](https://leetcode.com/problems/minimum-path-sum/)
-
-    [代码详解, 思路和第三题差不多](https://www.jianshu.com/p/c561d1c2a95a)
-6. [数组查找最大递增路径长度](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/longestIncreaseSubsequence.js)
-
-    [leetcode地址](https://leetcode.com/problems/longest-increasing-subsequence/submissions/)
-
-    [代码详解](https://www.jianshu.com/p/07439f0c3756)
-7. [字符查找最长回文子串](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/longestPalindromicSubstr.js)
-
-    [leetcode地址](https://leetcode.com/problems/longest-palindromic-substring/submissions/)
-
-    [代码详解](https://www.jianshu.com/p/da47c81cd1a3)
-8. [字符串是否能由给出的字典中的K个子串构成](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/wordBreak.js)
-
-    [leetcode地址](https://leetcode.com/problems/word-break/submissions/)
-
+1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js) || [leetcode地址](https://leetcode.com/problems/house-robber/)
+2. [强盗偷东西，价值最大化II](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobberII.js) || [leetcode地址](https://leetcode.com/problems/house-robber-ii/)
+3. [矩阵从左上角顶点走到右下角终点可能的路径总和](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/uniquePaths.js) || [leetcode地址](https://leetcode.com/problems/unique-paths/) || [代码详解](https://www.jianshu.com/p/c561d1c2a95a)
+4. [矩阵从左上角顶点走到右下角终点可能的路径总和，路径中有障碍物](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/uniquePathsII.js) || [leetcode地址](https://leetcode.com/problems/unique-paths-ii/submissions/)
+5. [矩阵查找最小路径和](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/minimumPathSum.js) || [leetcode地址](https://leetcode.com/problems/minimum-path-sum/) || [代码详解, 思路和第三题差不多](https://www.jianshu.com/p/c561d1c2a95a)
+6. [数组查找最大递增路径长度](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/longestIncreaseSubsequence.js) || [leetcode地址](https://leetcode.com/problems/longest-increasing-subsequence/submissions/) || [代码详解](https://www.jianshu.com/p/07439f0c3756)
+7. [字符查找最长回文子串](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/longestPalindromicSubstr.js) || [leetcode地址](https://leetcode.com/problems/longest-palindromic-substring/submissions/) || [代码详解](https://www.jianshu.com/p/da47c81cd1a3)
+8. [字符串是否能由给出的字典中的K个子串构成](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/wordBreak.js) || [leetcode地址](https://leetcode.com/problems/word-break/submissions/)
+9. [实现正则表达式匹配](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/regExpMatch.js) || [leetcode地址](https://leetcode.com/problems/regular-expression-matching/solution/)
 ### 找不到分类
 1. [实现一个最近最少使用的缓存结构](https://github.com/dengshasha/algorithm-study/blob/master/others/LRUCache.js)
 
