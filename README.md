@@ -101,6 +101,7 @@
 7. [字符查找最长回文子串](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/longestPalindromicSubstr.js) || [leetcode地址](https://leetcode.com/problems/longest-palindromic-substring/submissions/) || [代码详解](https://www.jianshu.com/p/da47c81cd1a3)
 8. [字符串是否能由给出的字典中的K个子串构成](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/wordBreak.js) || [leetcode地址](https://leetcode.com/problems/word-break/submissions/)
 9. [实现正则表达式匹配](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/regExpMatch.js) || [leetcode地址](https://leetcode.com/problems/regular-expression-matching/solution/)
+10. [实现正则表达式匹配II](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/wildcardMatch.js) || [leetcode地址](https://leetcode.com/problems/wildcard-matching/submissions/)
 ### 找不到分类
 1. [实现一个最近最少使用的缓存结构](https://github.com/dengshasha/algorithm-study/blob/master/others/LRUCache.js)
 
