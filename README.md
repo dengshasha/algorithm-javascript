@@ -62,6 +62,7 @@
 1. [最长公共前缀](https://github.com/dengshasha/algorithm-study/blob/master/string/longestCommonPrefix.js) || [leetcode地址](https://leetcode.com/problems/longest-common-prefix/submissions/)
 2. [校验括号的合法性](https://github.com/dengshasha/algorithm-study/blob/master/string/validParentheses.js) || [leetcode地址](https://leetcode.com/problems/valid-parentheses/submissions/)
 3. [在字符串中查找数组中的级联子串](https://github.com/dengshasha/algorithm-study/blob/master/string/substrWithConcatenation.js) || [leetcode地址](https://leetcode.com/problems/substring-with-concatenation-of-all-words/submissions/)
+4. [实现atoi函数](https://github.com/dengshasha/algorithm-study/blob/master/string/strToInteger.js) || [leetcode地址](https://leetcode.com/problems/string-to-integer-atoi/submissions/)
 
 ### 数组
 1. [数组各项，除该项外累乘的结果](https://github.com/dengshasha/algorithm-study/blob/master/array/productArrayExceptSelf.js) || [leetcode地址](https://leetcode.com/problems/product-of-array-except-self/submissions/)
