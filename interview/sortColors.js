@@ -7,41 +7,40 @@
  * 即，在[0,range1)范围内全是0，(range2, size)范围内全是2，[range1, range2]范围内全是1
  * 在遍历过程中，只要将0，1，2放入对应的范围内即可
  */
+
 var sortColors = function(nums) {
-    let size = nums.length
-    if(size <= 1) return nums
-    //0, 1边界，和1,2边界
-    let range1 = 0, range2 = size-1
-    let i = 0
-    // range2往后的已经是排好序的，且全部是2，无需再遍历
-    while(i <= range2) {
-        if(nums[i] === 1) { //如果元素是1，不用扩展或者缩小边界
-            i++
-            continue;
-        }
+    let left = 0, right = nums.length -1
+    let i = 0;
+    while(i <= right) {
         if(nums[i] === 0) {
-            if(i <= range1) { //这句代码的意思是，可能一开始的某几个元素都是0，这种时候无需交换，直接往前遍历
-                i++
-            } else {
-                // 交换两个数
-                nums[i] = nums[range1]
-                nums[range1] = 0
-            }
-            range1++
+            swap(i, left, nums);
+            //放0的子数组扩大了
+            left++;
+            //注意i的活动范围，应该是从left边界到right边界
+            i = left;
             continue;
         }
         if(nums[i] === 2) {
-            // 交换两个数
-            nums[i] = nums[range2]
-            nums[range2] = 2
-            range2--
+            swap(i, right, nums);
+            //放2的子数组扩大了
+            right--;
             continue;
         }
+        if(nums[i] === 1) {
+            i++;
+            continue
+        }
     }
-    return nums
+    return nums;
 };
-// console.log(sortColors([1,2,0]))
-// console.log(sortColors([1,0,1]))
-// console.log(sortColors([1,2,1]))
+
+function swap(i, j, arr) {
+    let temp = arr[i]
+    arr[i] = arr[j]
+    arr[j] = temp;
+}
+console.log(sortColors([1,2,0]))
+console.log(sortColors([1,0,1]))
+console.log(sortColors([1,2,1]))
 console.log(sortColors([2,0,2,1,1,0]))
-// console.log(sortColors([2,0,1]))
+console.log(sortColors([2,0,1]))

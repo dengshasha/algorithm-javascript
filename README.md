@@ -10,9 +10,7 @@
 5. [二叉树路径和判断](https://github.com/dengshasha/algorithm-study/blob/master/interview/pathSum.js)
 
     [leetcode地址](https://leetcode.com/problems/path-sum/submissions/)
-6. [浦发银行笔试题--颜色排序](https://github.com/dengshasha/algorithm-study/blob/master/interview/sortColors.js)
-
-    [leetcode地址](https://leetcode.com/problems/sort-colors/submissions/)
+6. [浦发银行笔试题--颜色排序](https://github.com/dengshasha/algorithm-study/blob/master/interview/sortColors.js) || [leetcode地址](https://leetcode.com/problems/sort-colors/submissions/)
 
 ### 最小（大）堆
 1. [找数组中第K大的数](https://github.com/dengshasha/algorithm-study/blob/master/array/kthLargestElement.js)
