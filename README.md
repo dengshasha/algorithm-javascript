@@ -86,6 +86,7 @@
 19. [返回数组中每个元素向右到边界，比该元素小的元素的总数](https://github.com/dengshasha/algorithm-study/blob/master/array/countSmaller.js) || [leetcode地址](https://leetcode.com/problems/count-of-smaller-numbers-after-self/submissions/)
 20. [返回给定数组的所有排列](https://github.com/dengshasha/algorithm-study/blob/master/array/permutations.js) || [leetcode地址](https://leetcode.com/problems/permutations/submissions/)
 21. [返回给定数组(含重复元素)的所有排列](https://github.com/dengshasha/algorithm-study/blob/master/array/permutationsII.js) || [leetcode地址](https://leetcode.com/problems/permutations-ii/submissions/)
+22. [判断是否是数独](https://github.com/dengshasha/algorithm-study/blob/master/array/validSudoku.js) || [leetcode地址](https://leetcode.com/problems/valid-sudoku/submissions/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js) || [leetcode地址](https://leetcode.com/problems/house-robber/)
