@@ -62,6 +62,7 @@
 3. [在字符串中查找数组中的级联子串](https://github.com/dengshasha/algorithm-study/blob/master/string/substrWithConcatenation.js) || [leetcode地址](https://leetcode.com/problems/substring-with-concatenation-of-all-words/submissions/)
 4. [实现atoi函数](https://github.com/dengshasha/algorithm-study/blob/master/string/strToInteger.js) || [leetcode地址](https://leetcode.com/problems/string-to-integer-atoi/submissions/)
 5. [电话号码中的字符组合](https://github.com/dengshasha/algorithm-study/blob/master/string/letterCombOfPhoneNum.js) || [leetcode地址](https://leetcode.com/problems/letter-combinations-of-a-phone-number/submissions/)
+6. [爬楼梯](https://github.com/dengshasha/algorithm-study/blob/master/string/climbStairs.js) || [leetcode地址](https://leetcode.com/problems/climbing-stairs/)
 
 ### 数组
 1. [数组各项，除该项外累乘的结果](https://github.com/dengshasha/algorithm-study/blob/master/array/productArrayExceptSelf.js) || [leetcode地址](https://leetcode.com/problems/product-of-array-except-self/submissions/)
@@ -100,6 +101,7 @@
 8. [字符串是否能由给出的字典中的K个子串构成](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/wordBreak.js) || [leetcode地址](https://leetcode.com/problems/word-break/submissions/)
 9. [实现正则表达式匹配](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/regExpMatch.js) || [leetcode地址](https://leetcode.com/problems/regular-expression-matching/solution/)
 10. [实现正则表达式匹配II](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/wildcardMatch.js) || [leetcode地址](https://leetcode.com/problems/wildcard-matching/submissions/)
+11. [爬楼梯](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/climbStairs.js) || [leetcode地址](https://leetcode.com/problems/climbing-stairs/)
 ### 找不到分类
 1. [实现一个最近最少使用的缓存结构](https://github.com/dengshasha/algorithm-study/blob/master/others/LRUCache.js)
 
