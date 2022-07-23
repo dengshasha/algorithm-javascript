@@ -102,6 +102,8 @@
 9. [实现正则表达式匹配](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/regExpMatch.js) || [leetcode地址](https://leetcode.com/problems/regular-expression-matching/solution/)
 10. [实现正则表达式匹配II](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/wildcardMatch.js) || [leetcode地址](https://leetcode.com/problems/wildcard-matching/submissions/)
 11. [爬楼梯](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/climbStairs.js) || [leetcode地址](https://leetcode.com/problems/climbing-stairs/)
+### 贪心算法
+1. [返回k次交换后最大的序列](https://github.com/dengshasha/algorithm-study/blob/master/greedy/largestPermutation.js) || [Geeks地址](https://www.geeksforgeeks.org/largest-permutation-k-swaps/)
 ### 找不到分类
 1. [实现一个最近最少使用的缓存结构](https://github.com/dengshasha/algorithm-study/blob/master/others/LRUCache.js)
 
