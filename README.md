@@ -86,7 +86,6 @@
 12. [买卖股票获取最大收益II](https://github.com/dengshasha/algorithm-study/blob/master/array/bestTimeBuyAndSellStockII.js) || [leetcode地址](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/)
 13. [数组查找最大递增路径长度](https://github.com/dengshasha/algorithm-study/blob/master/array/longestIncreaseSubsequence.js) || [leetcode地址](https://leetcode.com/problems/longest-increasing-subsequence/submissions/) || [代码详解](https://www.jianshu.com/p/07439f0c3756)
 14. [字符串是否能由给出的字典中的K个子串构成](https://github.com/dengshasha/algorithm-study/blob/master/array/wordBreak.js) || [leetcode地址](https://leetcode.com/problems/word-break/submissions/)
-
 15. [每日温度--给一个表示温度的整数数组，输出每天需要等待比其更高温出现的天数](https://github.com/dengshasha/algorithm-study/blob/master/array/dailyTemperatures.js) || [leetcode地址](https://leetcode-cn.com/problems/daily-temperatures/)
 16. [最短无序连续子数组](https://github.com/dengshasha/algorithm-study/blob/master/array/findUnsortedSubarray.js) || [leetcode地址](https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray/)
 17. [容器最大面积](https://github.com/dengshasha/algorithm-study/blob/master/array/containerWithMostWater.js) || [leetcode地址](https://leetcode.com/problems/container-with-most-water/submissions/)
@@ -95,6 +94,7 @@
 20. [返回给定数组的所有排列](https://github.com/dengshasha/algorithm-study/blob/master/array/permutations.js) || [leetcode地址](https://leetcode.com/problems/permutations/submissions/)
 21. [返回给定数组(含重复元素)的所有排列](https://github.com/dengshasha/algorithm-study/blob/master/array/permutationsII.js) || [leetcode地址](https://leetcode.com/problems/permutations-ii/submissions/)
 22. [判断是否是数独](https://github.com/dengshasha/algorithm-study/blob/master/array/validSudoku.js) || [leetcode地址](https://leetcode.com/problems/valid-sudoku/submissions/)
+23. [找出两个数组的公共元素](https://github.com/dengshasha/algorithm-study/blob/master/array/IntersectionOfTwoArr.js) || [leetcode地址](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js) || [leetcode地址](https://leetcode.com/problems/house-robber/)
