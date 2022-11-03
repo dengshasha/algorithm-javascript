@@ -13,9 +13,9 @@
 6. [浦发银行笔试题--颜色排序](https://github.com/dengshasha/algorithm-study/blob/master/interview/sortColors.js) || [leetcode地址](https://leetcode.com/problems/sort-colors/submissions/)
 
 ### DFS
-1. [能否完成课程](https://github.com/dengshasha/algorithm-study/blob/master/dfs/courseSchedule.js)
+1. [能否完成课程](https://github.com/dengshasha/algorithm-study/blob/master/dfs/courseSchedule.js) || [leetcode地址](https://leetcode.com/problems/course-schedule/submissions/)
+2. [硬币兑换](https://github.com/dengshasha/algorithm-study/blob/master/dfs/coinChange.js) || [leetcode地址](https://leetcode.com/problems/coin-change/)
 
-    [leetcode地址](https://leetcode.com/problems/course-schedule/submissions/)
 ### 最小（大）堆
 1. [找数组中第K大的数](https://github.com/dengshasha/algorithm-study/blob/master/array/kthLargestElement.js)
 
@@ -108,6 +108,8 @@
 9. [实现正则表达式匹配](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/regExpMatch.js) || [leetcode地址](https://leetcode.com/problems/regular-expression-matching/solution/)
 10. [实现正则表达式匹配II](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/wildcardMatch.js) || [leetcode地址](https://leetcode.com/problems/wildcard-matching/submissions/)
 11. [爬楼梯](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/climbStairs.js) || [leetcode地址](https://leetcode.com/problems/climbing-stairs/)
+12. [硬币兑换](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/coinChange.js) || [leetcode地址](https://leetcode.com/problems/coin-change/)
+
 ### 贪心算法
 1. [返回k次交换后最大的序列](https://github.com/dengshasha/algorithm-study/blob/master/greedy/largestPermutation.js) || [Geeks地址](https://www.geeksforgeeks.org/largest-permutation-k-swaps/)
 ### 找不到分类
