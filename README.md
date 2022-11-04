@@ -68,7 +68,7 @@
 5. [电话号码中的字符组合](https://github.com/dengshasha/algorithm-study/blob/master/string/letterCombOfPhoneNum.js) || [leetcode地址](https://leetcode.com/problems/letter-combinations-of-a-phone-number/submissions/)
 6. [爬楼梯](https://github.com/dengshasha/algorithm-study/blob/master/string/climbStairs.js) || [leetcode地址](https://leetcode.com/problems/climbing-stairs/)
 7. [在字符串中查找满足条件的最短子串](https://github.com/dengshasha/algorithm-study/blob/master/string/minWindowSubstr.js) || [leetcode地址](https://leetcode.com/problems/minimum-window-substring/)
-
+8. [在字符串中查找给定的子字符串出现的第一个位置](https://github.com/dengshasha/algorithm-study/blob/master/string/findFirstPosOfStr.js) || [leetcode地址](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
 ### 数组
 1. [数组各项，除该项外累乘的结果](https://github.com/dengshasha/algorithm-study/blob/master/array/productArrayExceptSelf.js) || [leetcode地址](https://leetcode.com/problems/product-of-array-except-self/submissions/)
