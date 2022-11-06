@@ -95,6 +95,8 @@
 21. [返回给定数组(含重复元素)的所有排列](https://github.com/dengshasha/algorithm-study/blob/master/array/permutationsII.js) || [leetcode地址](https://leetcode.com/problems/permutations-ii/submissions/)
 22. [判断是否是数独](https://github.com/dengshasha/algorithm-study/blob/master/array/validSudoku.js) || [leetcode地址](https://leetcode.com/problems/valid-sudoku/submissions/)
 23. [找出两个数组的公共元素](https://github.com/dengshasha/algorithm-study/blob/master/array/IntersectionOfTwoArr.js) || [leetcode地址](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
+24. [Game of life](https://github.com/dengshasha/algorithm-study/blob/master/array/gameOfLife.js) || [leetcode地址](https://leetcode.com/problems/game-of-life)
+
 
 ### 动态规划
 1. [强盗偷东西，价值最大化](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/houseRobber.js) || [leetcode地址](https://leetcode.com/problems/house-robber/)
