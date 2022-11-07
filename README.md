@@ -96,6 +96,7 @@
 22. [判断是否是数独](https://github.com/dengshasha/algorithm-study/blob/master/array/validSudoku.js) || [leetcode地址](https://leetcode.com/problems/valid-sudoku/submissions/)
 23. [找出两个数组的公共元素](https://github.com/dengshasha/algorithm-study/blob/master/array/IntersectionOfTwoArr.js) || [leetcode地址](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
 24. [Game of life](https://github.com/dengshasha/algorithm-study/blob/master/array/gameOfLife.js) || [leetcode地址](https://leetcode.com/problems/game-of-life)
+25. [找出给定数组的最大乘积的子数组](https://github.com/dengshasha/algorithm-study/blob/master/array/maxProductSubarr.js) || [leetcode地址](https://leetcode.com/problems/maximum-product-subarray/)
 
 
 ### 动态规划
