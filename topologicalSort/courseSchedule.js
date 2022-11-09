@@ -53,8 +53,39 @@ var canFinish = function(numCourses, prerequisites) {
     }
     return true;
 };
+// 解法2：拓扑排序
+var canFinish_1 = function(numCourses, prerequisites) {
+    let inDegree = new Array(numCourses).fill(0)
+    let queue = []
+    let total = 0
+    for(let [v] of prerequisites) {
+        inDegree[v]++;
+    }
+    for(let i = 0; i < inDegree.length; i++) {
+        if(inDegree[i] === 0) {
+            queue.push(i)
+        }
+    }
+    while(queue.length) {
+        let point = queue.pop()
+        total++
+        for(let [v, dep] of prerequisites) {
+            if(dep === point) {
+                inDegree[v]--
+                if(inDegree[v] === 0) {
+                    queue.push(v)
+                }
+            }
+        }
+    }
+    // return inDegree.every(v => v === 0)
+    return total === numCourses
+}
 
-console.log('false:', canFinish(2, [[0,1],[1,0]]))
-console.log('false:', canFinish(3, [[1,0], [0, 2],[2,1]]))
-console.log('false:', canFinish(4, [[2,0],[1,0],[3,1],[3,2],[1,3]]))
-console.log('true:', canFinish(3, [[0,1],[0,2],[1,2]]))
+console.log(canFinish_1(2, [[1,0]]))
+console.log(canFinish_1(2, [[0,1]]))
+
+console.log('false:', canFinish_1(2, [[0,1],[1,0]]))
+console.log('false:', canFinish_1(3, [[1,0], [0, 2],[2,1]]))
+console.log('false:', canFinish_1(4, [[2,0],[1,0],[3,1],[3,2],[1,3]]))
+console.log('true:', canFinish_1(3, [[0,1],[0,2],[1,2]]))

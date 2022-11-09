@@ -14,7 +14,8 @@
 
 ### DFS
 1. [能否完成课程](https://github.com/dengshasha/algorithm-study/blob/master/dfs/courseSchedule.js) || [leetcode地址](https://leetcode.com/problems/course-schedule/submissions/)
-2. [硬币兑换](https://github.com/dengshasha/algorithm-study/blob/master/dfs/coinChange.js) || [leetcode地址](https://leetcode.com/problems/coin-change/)
+2. [能否完成课程II](https://github.com/dengshasha/algorithm-study/blob/master/dfs/courseScheduleII.js) || [leetcode地址](https://leetcode.com/problems/course-schedule-ii/)
+3. [硬币兑换](https://github.com/dengshasha/algorithm-study/blob/master/dfs/coinChange.js) || [leetcode地址](https://leetcode.com/problems/coin-change/)
 
 ### 最小（大）堆
 1. [找数组中第K大的数](https://github.com/dengshasha/algorithm-study/blob/master/array/kthLargestElement.js)
