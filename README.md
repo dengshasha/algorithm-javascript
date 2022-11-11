@@ -132,3 +132,6 @@
 ### KMP
 ### Manacher‘s Algorithm(马拉车算法)
 [Longest Palindromic Substr](https://github.com/dengshasha/algorithm-study/blob/master/longestPalindromicSubstr.js)
+
+### Trie(前缀树/字典树)
+[https://github.com/dengshasha/algorithm-study/blob/master/trie/implementTrie.js](https://leetcode.com/problems/implement-trie-prefix-tree/)
