@@ -134,4 +134,4 @@
 [Longest Palindromic Substr](https://github.com/dengshasha/algorithm-study/blob/master/longestPalindromicSubstr.js)
 
 ### Trie(前缀树/字典树)
-[https://github.com/dengshasha/algorithm-study/blob/master/trie/implementTrie.js](https://leetcode.com/problems/implement-trie-prefix-tree/)
+[构建前缀树](https://github.com/dengshasha/algorithm-study/blob/master/trie/implementTrie.js) || [leetcode地址](https://leetcode.com/problems/implement-trie-prefix-tree/)
