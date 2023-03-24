@@ -117,10 +117,12 @@
 
 ### 贪心算法
 1. [返回k次交换后最大的序列](https://github.com/dengshasha/algorithm-study/blob/master/greedy/largestPermutation.js) || [Geeks地址](https://www.geeksforgeeks.org/largest-permutation-k-swaps/)
+2. 
 ### 找不到分类
 1. [实现一个最近最少使用的缓存结构](https://github.com/dengshasha/algorithm-study/blob/master/others/LRUCache.js) || [leetcode地址](https://leetcode.com/problems/lru-cache/)
 2. [设计一个不包含重复数据，可以插入，删除，随机获取值的类](https://github.com/dengshasha/algorithm-study/blob/master/others/randomizedSet.js) || [leetcode地址](https://leetcode.com/problems/insert-delete-getrandom-o1/)
 3. [设计一个将嵌套数组转换为扁平化数组的类](https://github.com/dengshasha/algorithm-study/blob/master/others/flattenNestedListIterator.js) || [leetcode地址](https://leetcode.com/problems/flatten-nested-list-iterator/)
+4. [计算n!的末尾0的个数](https://github.com/dengshasha/algorithm-study/blob/master/others/factorialTrailingZeroes.js) || [leetcode地址](https://leetcode.com/problems/factorial-trailing-zeroes/)
 
 ### 分治法
 1. [Merge k Sorted Lists](https://github.com/dengshasha/algorithm-study/blob/master/mergeKSortedLists.js)
