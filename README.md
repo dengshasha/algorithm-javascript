@@ -115,6 +115,7 @@
 10. [实现正则表达式匹配II](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/wildcardMatch.js) || [leetcode地址](https://leetcode.com/problems/wildcard-matching/submissions/)
 11. [爬楼梯](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/climbStairs.js) || [leetcode地址](https://leetcode.com/problems/climbing-stairs/)
 12. [硬币兑换](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/coinChange.js) || [leetcode地址](https://leetcode.com/problems/coin-change/)
+13. [一个数由完美平方数组成的最小数量](https://github.com/dengshasha/algorithm-study/blob/master/dynamicProgramming/perfectSquares.js) || [leetcode地址](https://leetcode.com/problems/perfect-squares/solutions/)
 
 ### 贪心算法
 1. [返回k次交换后最大的序列](https://github.com/dengshasha/algorithm-study/blob/master/greedy/largestPermutation.js) || [Geeks地址](https://www.geeksforgeeks.org/largest-permutation-k-swaps/)
